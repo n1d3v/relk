@@ -1,18 +1,26 @@
+/**
+ * @name Relk
+ * @version 1.0
+ * @description a revived, smooth theme inspired by zorin
+ * @author pb4l
+ * @authorId 1125800117245591613
+ * @source https://github.com/n1d3v/relk
+ */
 /*         ▀▀█ █▀▀ █   █ █
            ▄▀  █▀▀ █   █▀▄
            ▀▀▀ ▀▀▀ ▀▀▀ ▀ ▀           */
-/*--------------IMPORTS------------- */
-@import url(https://schnensch0.github.io/zelk/main.css);
-@import url(https://crearts-community.github.io/Settings-Icons/clients/powercord.css);
+ /*--------------IMPORTS------------- */
+@import url(https://raw.githubusercontent.com/n1d3v/relk/main/main.css);
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
 /*--------------COLORS---------------*/
 /*------remove / and * to apply------*/
-/* @import url(https://raw.githack.com/schnensch0/zelk/main/colors/blue.css); */
-/* @import url(https://raw.githack.com/schnensch0/zelk/main/colors/green.css); */
-/* @import url(https://raw.githack.com/schnensch0/zelk/main/colors/gray.css); */
-/* @import url(https://raw.githack.com/schnensch0/zelk/main/colors/orange.css); */
-/* @import url(https://raw.githack.com/schnensch0/zelk/main/colors/purple.css); */
-/* @import url(https://raw.githack.com/schnensch0/zelk/main/colors/red.css); */
-/* @import url(https://raw.githack.com/schnensch0/zelk/main/colors/discord.css); */
+/* @import url(https://raw.githubusercontent.com/n1d3v/relk/main/colors/blue.css); */
+/* @import url(https://raw.githubusercontent.com/n1d3v/relk/main/colors/green.css); */
+/* @import url(https://raw.githubusercontent.com/n1d3v/relk/main/colors/gray.css); */
+/* @import url(https://raw.githubusercontent.com/n1d3v/relk/main/colors/orange.css); */
+/* @import url(https://raw.githubusercontent.com/n1d3v/relk/main/colors/purple.css); */
+/* @import url(https://raw.githubusercontent.com/n1d3v/relk/main/colors/red.css); */
+/* @import url(https://raw.githubusercontent.com/n1d3v/relk/main/colors/discord.css); */
 /*-------------VARIABLES-------------*/
 :root {
   /* set to 'unset' to show */
@@ -24,8 +32,8 @@
   /* set to '4px solid' to show */
   --embed-color: none;
   /* set to 'Inter', sans-serif !important to use Inter font*/
-  --font-primary: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  --font-display: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  --font-primary: 'Inter', sans-serif; /* rip whitney, you will be missed */
+  --font-display: 'Inter', sans-serif !important;
   --border-radius-1: 10px;
   --border-radius-2: 8px;
 }
@@ -33,7 +41,7 @@
 /*-------------DARK MODE-------------*/
 /*---------------BASIC---------------*/
 .theme-dark {
-  --accent-color: #bde6fb;
+  --accent-color: #dddddd;
   --background-1: #171d20;
   --background-2: #1e2529;
   --background-accent: #1e2529;
@@ -62,7 +70,7 @@
   /* modifiers */
   --background-modifier-hover: #262e33;
   --background-modifier-active: #495a63;
-  --background-modifier-selected: var(--accent-color);
+  --background-modifier-selected: #353535;
   --background-modifier-accent: transparent;
   --background-message-hover: transparent;
   /* text */
@@ -110,7 +118,7 @@
   /* modifiers */
   --background-modifier-hover: transparent;
   --background-modifier-active: #b7c2cc;
-  --background-modifier-selected: var(--accent-color);
+  --background-modifier-selected: #d5dde6;
   --background-modifier-accent: transparent;
   --background-message-hover: transparent;
   /* text */
@@ -143,4 +151,16 @@
   --button-destructive: #fb7c7c;
   --button-destructive-hover: #ff929b;
   --button-destructive-active: #fa4a4a;
+}
+/*-----------DON'T CHANGE------------*/
+:root {
+  --outdated-122: none !important;
+}
+/*  usrbg | snippet by _david_#0218  */
+.userPopout-2j1gM4[style*="--user-background"] .banner-1YaD3N, .root-8LYsGj[style*="--user-background"] .banner-1YaD3N {
+  height: 120px;
+  background: var(--background-tertiary) var(--user-background) var(--user-popout-position, center) center / cover !important;
+}
+.root-8LYsGj[style*="--user-background"] .banner-1YaD3N {
+  height: 240px;
 }
