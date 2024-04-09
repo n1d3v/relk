@@ -3,11 +3,11 @@
 Relk is a smooth Discord theme inspired by the <a href=https://github.com/ZorinOS/zorin-desktop-themes>Zorin GTK theme</a>. Original project by <a href="https://github.com/schnensch0">schnensch0</a>.</p>
   
 ### Installation
-#### Vencord
+### Vencord
 Download the relk.theme.css file from Releases and add it to your 'themes' folder.
 
 If you wish to use a different colour scheme edit the CSS file it's self.
-#### BetterDiscord
+### BetterDiscord
 Download the relk.theme.css file from Releases and add it to your 'themes' folder.
 
 If you wish to use a different colour scheme edit the CSS file it's self.
@@ -15,7 +15,7 @@ If you wish to use a different colour scheme edit the CSS file it's self.
 # Screenshots
 ![image](https://github.com/n1d3v/relk/assets/135556230/63352d57-efba-4cce-9ae5-e09060f55035)
 
-### Credits
+## Credits
 [schnensch0](https://github.com/schnensch0) for the original 'Zelk' theme.
 
 Inter from [rsms.me/inter](https://rsms.me/inter/)
