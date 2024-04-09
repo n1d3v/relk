@@ -97,7 +97,7 @@
   --button-background: #2a3439;
   --button-background-hover: #354249;
   --button-background-active: #4d5f68;
-  --button-accent: var(--accent-color);
+  --button-accent: #353535;
   --button-accent-hover: #d2f3ff;
   --button-accent-active: #8dd4f8;
   --button-destructive: #fb7c7c;
@@ -145,7 +145,7 @@
   --button-background: var(--background-1);
   --button-background-hover: #d3dae1;
   --button-background-active: #b1bcc8;
-  --button-accent: var(--accent-color);
+  --button-accent: #b3d6e0;
   --button-accent-hover: #22c5fd;
   --button-accent-active: #0d87c5;
   --button-destructive: #fb7c7c;
@@ -155,12 +155,4 @@
 /*-----------DON'T CHANGE------------*/
 :root {
   --outdated-122: none !important;
-}
-/*  usrbg | snippet by _david_#0218  */
-.userPopout-2j1gM4[style*="--user-background"] .banner-1YaD3N, .root-8LYsGj[style*="--user-background"] .banner-1YaD3N {
-  height: 120px;
-  background: var(--background-tertiary) var(--user-background) var(--user-popout-position, center) center / cover !important;
-}
-.root-8LYsGj[style*="--user-background"] .banner-1YaD3N {
-  height: 240px;
 }
